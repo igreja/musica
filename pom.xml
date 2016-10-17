@@ -40,6 +40,11 @@
             <artifactId>derby</artifactId>
             <version>10.12.1.1</version>
         </dependency>
+        <dependency>
+            <groupId>br.com.cartorio</groupId>
+            <artifactId>Recursos</artifactId>
+            <version>1.0</version>
+        </dependency>
     </dependencies>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

@@ -28,7 +28,7 @@ public class UrlUtil
         }
         
         // ----------- retornar o conteudo
-        try ( BufferedReader in = new BufferedReader( new InputStreamReader( connection.getInputStream() ) ) )
+        try ( BufferedReader in = new BufferedReader( new InputStreamReader( connection.getInputStream() , "UTF-8" ) ) )
         {
             builder = new StringBuilder();
             String inputLine;
